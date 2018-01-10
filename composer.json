@@ -1,0 +1,15 @@
+{
+    "name": "futureactivities/magento2-stripe",
+    "description": "Stripe payment method designed to be used by Magento REST API only.",
+    "version": "1.0.0",
+    "type": "magento2-module",
+    "require": {
+        "stripe/stripe-php": "^5.8.0"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+          "FutureActivities\\Stripe\\": ""
+        }
+    }
+}
